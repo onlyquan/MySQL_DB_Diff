@@ -410,7 +410,7 @@ function query($connection, $sql)
 function execute($connection, $sql, &$errors)
 {
     if ($connection) {
-        $result = @mysqli_query($connection,$sql);
+        $result = @mysqli_query($connection, $sql);
         if ($result)
             return true;
         $errors[] = @mysqli_error($connection);
