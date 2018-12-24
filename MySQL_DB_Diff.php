@@ -79,7 +79,7 @@ function getheader($title)
     echo <<<EOC
 <html>
 <head>
-<title>$title —— MySQL_DB_Diff By 傻东</title>
+<title>$title —— MySQL_DB_Diff</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <style type="text/css">
 body{background-color:#FFFFDD;}
@@ -156,7 +156,7 @@ function showform($post = null, $errors = null)
 				<td>&nbsp</td>
 			</tr>
 			<tr>
-				<td colspan="4"><span class="red">注意:程序无法判断修改表名的情况，如果继续操作，会删除原表新建一张表，原来的数据全部丢失。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新指的是包含较新结构的数据库，一般为本地数据库，旧指的是未更新修改的数据库，一般为服务器上数据库。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据库操作有风险，请审查生成的SQL语句后执行提交，发生任何问题责任自负。<br /><br />作者:傻东 <a href="http://sillydong.com" target="_blank">sillydong.com</a></span></td>
+				<td colspan="4"><span class="red">注意:程序无法判断修改表名的情况，如果继续操作，会删除原表新建一张表，原来的数据全部丢失。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新指的是包含较新结构的数据库，一般为本地数据库，旧指的是未更新修改的数据库，一般为服务器上数据库。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据库操作有风险，请审查生成的SQL语句后执行提交，发生任何问题责任自负。<br /><br /></span></td>
 			</tr>
 		</table>
 	</form>
